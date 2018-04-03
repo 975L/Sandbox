@@ -1,0 +1,38 @@
+{% if display == 'pdf' %}
+    <footer class="container-fluid">
+{% else %}
+    <footer class="container-fluid hidden-print">
+{% endif %}
+    <div class="row">
+{# Legal notice #}
+        <div class="col-md-3 col-md-offset-3 col-xs-12">
+            <ul>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'legal-notice' })) }}" rel="nofollow">{{ 'label.legal_notice'|trans({}, 'site') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'terms-of-use' })) }}" rel="nofollow">{{ 'label.terms_of_use'|trans({}, 'site') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'terms-of-sales' })) }}" rel="nofollow">{{ 'label.terms_of_sales'|trans({}, 'site') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'privacy-policy' })) }}" rel="nofollow">{{ 'label.privacy_policy'|trans({}, 'site') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'cookies' })) }}" rel="nofollow">{{ 'label.cookies_policy'|trans({}, 'site') }}</a></li>
+            </ul>
+        </div>
+{# Various #}
+        <div class="col-md-3 col-xs-12">
+            <ul>
+                <li><a href="{{ absolute_url(path('contactform_display')) }}">{{ 'label.contact'|trans({}, 'contactForm') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'thanks' })) }}" rel="nofollow">{{ 'label.thanks'|trans({}, 'commons') }}</a></li>
+                <li><a href="{{ absolute_url(path('pageedit_display', { 'page': 'copyright' })) }}" rel="nofollow">{{ copyright }}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+{# Payment system #}
+        {% if display == 'html' %}
+            {% include '@c975LPayment/fragments/paymentSystem.html.twig' %}
+{# Sign in/Sign out #}
+            <p class="text-center">
+                {% include '@c975LUser/fragments/signinSignout.html.twig' %}
+            </p>
+        {% endif %}
+{# 975L #}
+        {% include '@c975LSite/fragments/madeBy.html.twig' %}
+    </div>
+</footer>

@@ -1,0 +1,31 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    database_driver:   ~
+    database_host:     ~
+    database_port:     ~
+    database_name:     ~
+    database_user:     ~
+    database_password: ~
+
+    mailer_transport:  ~
+    mailer_host:       ~
+    mailer_user:       ~
+    mailer_password:   ~
+
+    secret:            ~
+
+    facebook_app_id: ~
+    facebook_app_secret: ~
+    google_app_id: ~
+    google_app_secret: ~
+    live_app_id: ~
+    live_app_secret: ~
+
+    tinymceApiKey:     ~
+
+    stripe_secret_key_test : ~
+    stripe_publishable_key_test: ~
+    stripe_secret_key_live : ~
+    stripe_publishable_key_live: ~

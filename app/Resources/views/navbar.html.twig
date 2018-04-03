@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+{# Brand and toggle get grouped for better mobile display #}
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+{# Brand linked #}
+        <a href="{{ path('pageedit_home') }}" class="navbar-brand navbar-btn">
+            <img src="{{ asset('images/og-image.png') }}" alt="{{ site }}" class="pull-left" title="{{ site }}" id="logo" height="40" /><span>Sandbox 975L.com</span></a>
+    </div>
+{# Collect the nav links, forms, and other content for toggling #}
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <div class="navbar-right">
+{# User menu #}
+            {% include('@c975LUser/fragments/navbarMenu.html.twig') %}
+{# Languages #}
+            {% include('@c975LSite/fragments/navbarLanguagesDropdownMenu.html.twig') %}
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,17 @@
+{% extends "@c975LEmail/emails/fullLayout.html.twig" %}
+
+{% set site = 'Sandbox.975L.com' %}
+{% set email = 'sandbox@975l.com' %}
+{% set author = 'Laurent Marquet' %}
+{% set firstOnlineDate = '2018-04-03' %}
+{% set logo = absolute_url(asset('images/og-image.png')) %}
+
+{% block content %}
+    <div class="container">
+        {% block hello %}
+            {{ parent() }}
+        {% endblock %}
+        {% block email_content %}
+        {% endblock %}
+    </div>
+{% endblock %}

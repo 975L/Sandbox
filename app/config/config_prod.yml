@@ -1,0 +1,84 @@
+imports:
+    - { resource: config.yml }
+
+framework:
+    serializer:
+        cache: serializer.mapping.cache.apc
+
+doctrine:
+    orm:
+        metadata_cache_driver: apcu
+        query_cache_driver: apcu
+#        result_cache_driver: apcu
+
+monolog:
+    use_microseconds: false
+    handlers:
+        main:
+            type: fingers_crossed
+            action_level: error
+            handler: grouped
+            excluded_404s:
+                - ^//
+                - ^/.well-known
+                - ^/apple-app-site-association
+                - ^/backup
+                - ^/boutique
+                - ^/c/
+                - ^/cgi-bin/
+                - ^/cms
+                - ^/co/
+                - ^/admin
+                - ^/blog
+                - ^/configuration
+                - ^/edition
+                - ^/en/wp-admin
+                - ^/err403
+                - ^/err404
+                - ^/err500
+                - ^/expansion
+                - ^/forum
+                - ^/functions
+                - ^/google
+                - ^/HNAP1
+                - ^/includes
+                - ^/index.php
+                - ^/javascript
+                - ^/joomla
+                - ^/js
+                - ^/jvs
+                - ^/lib
+                - ^/libraries
+                - ^/license
+                - ^/main
+                - ^/media
+                - ^/mobile
+                - ^/modules
+                - ^/my-admin
+                - ^/phpmyadmin
+                - ^/prive
+                - ^/rss
+                - ^/services
+                - ^/site
+                - ^/test
+                - ^/themes
+                - ^/verification
+                - ^/wordpress
+                - ^/wp
+                - ^/xml
+        grouped:
+            type: group
+            members: [streamed, buffered]
+        streamed:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%.log'
+            level: debug
+        buffered:
+            type: buffer
+            handler: swift
+        swift:
+            type: swift_mailer
+            from_email: 'web@975l.com'
+            to_email: 'web@975l.com'
+            subject: An error has occured! [Monolog > config_prod.yml]
+            level: debug

@@ -1,0 +1,57 @@
+{# Defines specific variables #}
+{% set site = '975L.com' %}
+{% set copyright = '© 2012 - ' ~  'now'|date('Y') ~ ' ' ~ site %}
+
+{% spaceless %}
+<!DOCTYPE html>
+{# Head #}
+    <head>
+        {% block head %}
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no" />
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="author" content="{{ site }}" />
+            <link rel="copyright" title="{{ copyright }}" />
+
+{# Css #}
+        <style>
+            {% include('@c975LEmail/emails/styles.min.css') %}
+        </style>
+        {% endblock %}
+    </head>
+
+    <body>
+{# Contents #}
+        <div class="container">
+{# No spam #}
+            <p class="text-center text-muted small">
+                {{ 'text.no_spam'|trans({'%email%': 'contact@975l.com'}, 'commons') }}
+                <br />
+            </p>
+
+{# Logo #}
+            <p>
+                <img src="https://975l.com/images/og-image.png" width="50" height="50"> <strong>{{ site }}</strong>
+                <br />
+                <br />
+            </p>
+
+{# Hello #}
+            <p>
+                {{ 'text.hello'|trans({}, 'commons') }}
+                <br />
+            </p>
+
+{# Content #}
+            {% block content %}
+            {% endblock %}
+
+{# Footer #}
+            {% block footer %}
+                {% include('emails/footer.html.twig') %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
+{% endspaceless %}

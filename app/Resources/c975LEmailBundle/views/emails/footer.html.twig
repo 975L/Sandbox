@@ -1,0 +1,14 @@
+<div class="text-center">
+{# Legal notice #}
+    <ul class="inline">
+        <li><a href="{{ absolute_url(path('pageedit_display', {'_locale': _locale, 'page': 'legal-notice'})) }}">{{ 'label.legal_notice'|trans({}, 'site') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'_locale': _locale, 'page': 'terms-of-use'})) }}">{{ 'label.terms_of_use'|trans({}, 'site') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'_locale': _locale, 'page': 'terms-of-sales' })) }}" rel="nofollow">{{ 'label.terms_of_sales'|trans({}, 'site') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'_locale': _locale, 'page': 'privacy-policy'})) }}">{{ 'label.privacy_policy'|trans({}, 'site') }}</a></li>
+    </ul>
+{# Various #}
+    <ul class="inline">
+        <li><a href="{{ absolute_url(path('contactform_display',{'_locale': _locale})) }}">{{ 'label.contact'|trans({}, 'commons') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'_locale': _locale, 'page': 'thanks'})) }}">{{ 'label.thanks'|trans({}, 'commons') }}</a></li>
+    </ul>
+</div>

@@ -1,0 +1,148 @@
+/*
+Objet : Feuille CSS sandbox.975l.com
+Date de création : 02/04/2018
+Auteur : Laurent MARQUET
+Copyright : 2018
+*/
+
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+.lead {
+	font-family: 'Merienda';
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* BRANDING */
+.navbar-default {
+    background-color: #ffcc00;
+    border-bottom: solid #800000 2px;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #000;
+}
+
+li {
+    display : list-item;
+    list-style-image : url('../images/icone.png');
+}
+
+.brand {
+    color: #ffcc00;
+}
+
+.btn-brand {
+    background-color: #ffcc00;
+    font-weight: bold;
+}
+
+
+/* ADJUSTEMENTS */
+body {
+    padding-top: 63px;
+}
+
+.navbar-header{
+    min-height: 50px !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    min-height: 50px !important;
+    margin-left: 1em !important;
+}
+
+.navbar-brand span {
+    margin: 0.9em !important;
+    display: inline-block;
+	font-family: 'Merienda';
+    color: black;
+}
+
+ul.navbar-nav > li,
+ul.navbar-nav > li.dropdown {
+	font-family: 'Merienda';
+}
+
+ul.navbar-nav > li > a,
+ul.navbar-nav > li.dropdown > a {
+    color: #000000 !important;
+    font-size: 1.3em;
+    line-height: 32px;
+}
+
+ul.dropdown-menu > li {
+	font-family: inherit !important;
+    line-height: 32px;
+    font-size: 1.1em;
+}
+
+ul.dropdown-menu > li a:hover {
+    background-color: #ffcc00;
+    color: #000000;
+}
+
+ul.navbar-nav > li.dropdown.open > a.dropdown-toggle {
+    color: #000 !important;
+}
+
+.container {
+    background-color: #FFFEB1; 
+    border-radius: 20px;
+
+    /*border: solid #800000 2px;*/
+}
+
+
+/* GENERAL */
+footer {
+    background-color: #FFFEB1;
+    border-top: solid #800000 2px;
+    margin-top: 3em;
+    padding: 2em 0 6em 0;
+}
+
+footer a,
+footer a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:visited:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.brand {
+    color: #ffcc00;
+}
+
+
+/* SCREENS */
+@media only screen
+    and (max-width: 767px) {
+}
+
+@media only screen
+    and (max-width: 360px) {
+}
+
+@media only screen
+    and (max-width: 480px) {
+}
+
+
+/* PRINT */
+@media print {
+}

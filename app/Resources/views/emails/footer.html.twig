@@ -1,0 +1,31 @@
+<hr />
+
+<p>
+    {{ 'label.thanks_confidence'|trans({}, 'commons')|nl2br }}
+    <br />
+    <br />
+    {{ 'label.regards_team'|trans({'%site%': site}, 'commons')|nl2br }}
+    <br />
+</p>
+
+{# Email sent by #}
+<p class="text-muted text-center">
+    {{ 'label.email_sent_by'|trans({'%site%': site}, 'commons')|raw }}
+</p>
+<div class="text-center">
+{# Legal notice #}
+    <ul class="inline">
+        <li><a href="{{ absolute_url(path('pageedit_display', {'page': 'legal-notice'})) }}">{{ 'text.legal_notice'|trans({}, 'commons') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'page': 'terms-of-use'})) }}">{{ 'text.terms_of_use'|trans({}, 'commons') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'page': 'privacy-policy'})) }}">{{ 'text.privacy_policy'|trans({}, 'commons') }}</a></li>
+    </ul>
+{# Various #}
+    <ul class="inline">
+        <li><a href="{{ absolute_url(path('contactform_display')) }}">{{ 'label.contact'|trans({}, 'commons') }}</a></li>
+        <li><a href="{{ absolute_url(path('pageedit_display', {'page': 'thanks'})) }}">{{ 'label.thanks'|trans({}, 'commons') }}</a></li>
+    </ul>
+{# Copyright #}
+    <ul class="inline">
+        <li>{{ copyright }}</li>
+    </ul>
+</div>
