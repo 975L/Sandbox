@@ -22,3 +22,4 @@ app/Resources/views/pages
 web/images/
 web/bundles/
 tests/
+app/Resources/translations
