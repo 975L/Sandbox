@@ -3,8 +3,10 @@
 #Copyright - Auteur : Laurent MARQUET
 
 #Suppress spelling check as it gives access to folders
-    CheckSpelling Off
-    CheckCaseOnly Off
+    <IfModule mod_speling.c>
+        CheckSpelling Off
+        CheckCaseOnly Off
+    </IfModule>
 
 #Default Email for site
     ServerSignature EMail
