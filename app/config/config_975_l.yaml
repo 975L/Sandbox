@@ -49,6 +49,7 @@ c975_l_user:
     site: 'Sandbox.975l.com'
     roleNeeded: 'ROLE_ADMIN'
     touUrl: "pageedit_display, {page: terms-of-use}"
+    signinAttempts: 5
     avatar: true
     signup: true
     hwiOauth: ['facebook', 'google', 'live']
@@ -59,3 +60,7 @@ c975_l_user:
     multilingual: {'English': 'en', 'Français': 'fr', 'Español': 'es'}
     entity: 'AppBundle\Entity\User'
     signupForm: 'AppBundle\Form\UserSignupType'
+
+c975_l_exception_checker:
+    roleNeeded: 'ROLE_ADMIN'
+    redirectExcluded: 'pageedit_home'

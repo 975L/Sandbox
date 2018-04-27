@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "39e0a6a9d6dad3afd162d1478e86581b",
+    "content-hash": "fc4269c891faf75110027c9d0e1a8dfe",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -54,16 +54,16 @@
         },
         {
             "name": "c975l/contactform-bundle",
-            "version": "v1.8",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ContactFormBundle.git",
-                "reference": "04d9f944b5ef0885898274bdae2e1809358b03ba"
+                "reference": "4c3cb1c8bbc11d734aca2eeb9f9d243e02d61788"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/04d9f944b5ef0885898274bdae2e1809358b03ba",
-                "reference": "04d9f944b5ef0885898274bdae2e1809358b03ba",
+                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/4c3cb1c8bbc11d734aca2eeb9f9d243e02d61788",
+                "reference": "4c3cb1c8bbc11d734aca2eeb9f9d243e02d61788",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
                 "contact",
                 "symfony"
             ],
-            "time": "2018-03-31T20:24:01+00:00"
+            "time": "2018-04-16T09:16:41+00:00"
         },
         {
             "name": "c975l/email-bundle",
@@ -163,22 +163,24 @@
         },
         {
             "name": "c975l/events-bundle",
-            "version": "v1.13.4",
+            "version": "v1.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/EventsBundle.git",
-                "reference": "1b18a469cc28314c746eb96ddabcd6c8f47605fb"
+                "reference": "5dc7d0dab4f9923d7d0f9809d2306054cec1e9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/EventsBundle/zipball/1b18a469cc28314c746eb96ddabcd6c8f47605fb",
-                "reference": "1b18a469cc28314c746eb96ddabcd6c8f47605fb",
+                "url": "https://api.github.com/repos/975L/EventsBundle/zipball/5dc7d0dab4f9923d7d0f9809d2306054cec1e9f6",
+                "reference": "5dc7d0dab4f9923d7d0f9809d2306054cec1e9f6",
                 "shasum": ""
             },
             "require": {
                 "c975l/includelibrary-bundle": "^1",
                 "c975l/toolbar-bundle": "^1",
                 "cocur/slugify": "^2",
+                "doctrine/doctrine-bundle": "^1",
+                "doctrine/orm": "^2",
                 "knplabs/knp-paginator-bundle": "^2",
                 "php": ">=5.5.9",
                 "sensio/framework-extra-bundle": "^3",
@@ -216,20 +218,76 @@
                 "symfony",
                 "twig"
             ],
-            "time": "2018-03-19T22:55:48+00:00"
+            "time": "2018-04-15T16:39:07+00:00"
         },
         {
-            "name": "c975l/giftvoucher-bundle",
-            "version": "v1.11",
+            "name": "c975l/exceptionchecker-bundle",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/975L/GiftVoucherBundle.git",
-                "reference": "a2e9e38ef55c455d31bf4d76213d72fbfba996c9"
+                "url": "https://github.com/975L/ExceptionCheckerBundle.git",
+                "reference": "9a738eb0090af756245bcfb61acb2f9d958314f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/GiftVoucherBundle/zipball/a2e9e38ef55c455d31bf4d76213d72fbfba996c9",
-                "reference": "a2e9e38ef55c455d31bf4d76213d72fbfba996c9",
+                "url": "https://api.github.com/repos/975L/ExceptionCheckerBundle/zipball/9a738eb0090af756245bcfb61acb2f9d958314f7",
+                "reference": "9a738eb0090af756245bcfb61acb2f9d958314f7",
+                "shasum": ""
+            },
+            "require": {
+                "c975l/includelibrary-bundle": "^1",
+                "c975l/toolbar-bundle": "^1",
+                "doctrine/doctrine-bundle": "^1",
+                "doctrine/orm": "^2",
+                "knplabs/knp-paginator-bundle": "^2",
+                "php": ">=5.5.9",
+                "sensio/framework-extra-bundle": "^3",
+                "symfony/framework-bundle": "^3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "c975L\\ExceptionCheckerBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Marquet",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/Laurent3170",
+                    "role": "Developer"
+                },
+                {
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
+                }
+            ],
+            "description": "Listener for Symfony Exceptions in order to redirect to another url, or throw GoneException with a list of urls",
+            "homepage": "https://github.com/975L/ExceptionCheckerBundle",
+            "keywords": [
+                "bundle",
+                "exception",
+                "redirect",
+                "symfony"
+            ],
+            "time": "2018-04-23T09:14:51+00:00"
+        },
+        {
+            "name": "c975l/giftvoucher-bundle",
+            "version": "v1.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/975L/GiftVoucherBundle.git",
+                "reference": "dd2a5a8dba4a8f1b6868427df8112b3fa625851c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/975L/GiftVoucherBundle/zipball/dd2a5a8dba4a8f1b6868427df8112b3fa625851c",
+                "reference": "dd2a5a8dba4a8f1b6868427df8112b3fa625851c",
                 "shasum": ""
             },
             "require": {
@@ -279,20 +337,20 @@
                 "symfony",
                 "voucher"
             ],
-            "time": "2018-03-22T08:39:50+00:00"
+            "time": "2018-04-16T09:28:55+00:00"
         },
         {
             "name": "c975l/includelibrary-bundle",
-            "version": "v1.7.3",
+            "version": "v1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/IncludeLibraryBundle.git",
-                "reference": "b617b16919c2588b5d3c77a8873bc5a41e1cdae5"
+                "reference": "ba61036f4380e004fab2ab9b9e750b4455f4e4cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/IncludeLibraryBundle/zipball/b617b16919c2588b5d3c77a8873bc5a41e1cdae5",
-                "reference": "b617b16919c2588b5d3c77a8873bc5a41e1cdae5",
+                "url": "https://api.github.com/repos/975L/IncludeLibraryBundle/zipball/ba61036f4380e004fab2ab9b9e750b4455f4e4cf",
+                "reference": "ba61036f4380e004fab2ab9b9e750b4455f4e4cf",
                 "shasum": ""
             },
             "require": {
@@ -329,20 +387,20 @@
                 "library",
                 "symfony"
             ],
-            "time": "2018-03-21T11:09:11+00:00"
+            "time": "2018-04-10T04:43:04+00:00"
         },
         {
             "name": "c975l/pageedit-bundle",
-            "version": "v1.28.6",
+            "version": "v1.28.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PageEditBundle.git",
-                "reference": "2187556726c0333a2ef991f41aaf68e092f0dd7f"
+                "reference": "a78d113268180b0bec2b0512590b30735d6a593f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/2187556726c0333a2ef991f41aaf68e092f0dd7f",
-                "reference": "2187556726c0333a2ef991f41aaf68e092f0dd7f",
+                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/a78d113268180b0bec2b0512590b30735d6a593f",
+                "reference": "a78d113268180b0bec2b0512590b30735d6a593f",
                 "shasum": ""
             },
             "require": {
@@ -387,20 +445,20 @@
                 "symfony",
                 "twig"
             ],
-            "time": "2018-03-21T18:03:35+00:00"
+            "time": "2018-04-16T09:42:55+00:00"
         },
         {
             "name": "c975l/payment-bundle",
-            "version": "v1.11.3",
+            "version": "v1.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PaymentBundle.git",
-                "reference": "0c02de1753487a8c1d1f4951ad3c52c8ce6a7478"
+                "reference": "54e3212f17e02cb11cf3cf086408e916509df4b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PaymentBundle/zipball/0c02de1753487a8c1d1f4951ad3c52c8ce6a7478",
-                "reference": "0c02de1753487a8c1d1f4951ad3c52c8ce6a7478",
+                "url": "https://api.github.com/repos/975L/PaymentBundle/zipball/54e3212f17e02cb11cf3cf086408e916509df4b4",
+                "reference": "54e3212f17e02cb11cf3cf086408e916509df4b4",
                 "shasum": ""
             },
             "require": {
@@ -443,20 +501,20 @@
                 "stripe",
                 "symfony"
             ],
-            "time": "2018-04-02T13:11:54+00:00"
+            "time": "2018-04-16T09:46:26+00:00"
         },
         {
             "name": "c975l/purchasecredits-bundle",
-            "version": "v1.3.3",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PurchaseCreditsBundle.git",
-                "reference": "2d90c01ed183f98304c76e9f88817c02c8ecee6a"
+                "reference": "12c6ed77b3bfd6d596fb6ae0f3bcfd7c657edde6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/2d90c01ed183f98304c76e9f88817c02c8ecee6a",
-                "reference": "2d90c01ed183f98304c76e9f88817c02c8ecee6a",
+                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/12c6ed77b3bfd6d596fb6ae0f3bcfd7c657edde6",
+                "reference": "12c6ed77b3bfd6d596fb6ae0f3bcfd7c657edde6",
                 "shasum": ""
             },
             "require": {
@@ -501,7 +559,7 @@
                 "symfony",
                 "voucher"
             ],
-            "time": "2018-04-01T11:17:50+00:00"
+            "time": "2018-04-14T15:44:29+00:00"
         },
         {
             "name": "c975l/sharebuttons-bundle",
@@ -558,16 +616,16 @@
         },
         {
             "name": "c975l/site-bundle",
-            "version": "v1.6.1",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/SiteBundle.git",
-                "reference": "fcf2a68fad05202a86afd2708ace2194df8dee30"
+                "reference": "81e366dcb2e7be6ad69575753ced1f8fea31f60b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/fcf2a68fad05202a86afd2708ace2194df8dee30",
-                "reference": "fcf2a68fad05202a86afd2708ace2194df8dee30",
+                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/81e366dcb2e7be6ad69575753ced1f8fea31f60b",
+                "reference": "81e366dcb2e7be6ad69575753ced1f8fea31f60b",
                 "shasum": ""
             },
             "require": {
@@ -606,20 +664,20 @@
                 "symfony",
                 "website"
             ],
-            "time": "2018-04-03T10:11:11+00:00"
+            "time": "2018-04-14T17:08:56+00:00"
         },
         {
             "name": "c975l/toolbar-bundle",
-            "version": "v1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ToolbarBundle.git",
-                "reference": "81464f084e4daedc4bd1d5c37d96273bb2f32c77"
+                "reference": "35ddab0cd9d23f82eead9023689db5809f64968e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ToolbarBundle/zipball/81464f084e4daedc4bd1d5c37d96273bb2f32c77",
-                "reference": "81464f084e4daedc4bd1d5c37d96273bb2f32c77",
+                "url": "https://api.github.com/repos/975L/ToolbarBundle/zipball/35ddab0cd9d23f82eead9023689db5809f64968e",
+                "reference": "35ddab0cd9d23f82eead9023689db5809f64968e",
                 "shasum": ""
             },
             "require": {
@@ -655,20 +713,20 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2018-03-20T16:40:30+00:00"
+            "time": "2018-04-15T16:36:21+00:00"
         },
         {
             "name": "c975l/user-bundle",
-            "version": "v1.7.3",
+            "version": "v1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/UserBundle.git",
-                "reference": "622a73ff1d484c42fcda7413103aee28ca69adad"
+                "reference": "bcaf362059f447ea3835232ea9417954121c94ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/UserBundle/zipball/622a73ff1d484c42fcda7413103aee28ca69adad",
-                "reference": "622a73ff1d484c42fcda7413103aee28ca69adad",
+                "url": "https://api.github.com/repos/975L/UserBundle/zipball/bcaf362059f447ea3835232ea9417954121c94ee",
+                "reference": "bcaf362059f447ea3835232ea9417954121c94ee",
                 "shasum": ""
             },
             "require": {
@@ -708,7 +766,7 @@
                 "symfony",
                 "user"
             ],
-            "time": "2018-04-02T16:27:17+00:00"
+            "time": "2018-04-16T12:46:53+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1166,16 +1224,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.6.3",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "e3eed9b1facbb0ced3a0995244843a189e7d1b13"
+                "reference": "11037b4352c008373561dc6fc836834eed80c3b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/e3eed9b1facbb0ced3a0995244843a189e7d1b13",
-                "reference": "e3eed9b1facbb0ced3a0995244843a189e7d1b13",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/11037b4352c008373561dc6fc836834eed80c3b5",
+                "reference": "11037b4352c008373561dc6fc836834eed80c3b5",
                 "shasum": ""
             },
             "require": {
@@ -1184,9 +1242,11 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.4.6",
+                "doctrine/coding-standard": "^4.0",
+                "phpunit/phpunit": "^7.0",
                 "phpunit/phpunit-mock-objects": "!=3.2.4,!=3.2.5",
-                "symfony/console": "2.*||^3.0"
+                "symfony/console": "^2.0.5||^3.0",
+                "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -1197,7 +1257,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev"
+                    "dev-master": "2.7.x-dev"
                 }
             },
             "autoload": {
@@ -1235,20 +1295,20 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-11-19T13:38:54+00:00"
+            "time": "2018-04-07T18:44:18+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.8.1",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "eb6e4fb904a459be28872765ab6e2d246aac7c87"
+                "reference": "703fad32e4c8cbe609caf45a71a1d4266c830f0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/eb6e4fb904a459be28872765ab6e2d246aac7c87",
-                "reference": "eb6e4fb904a459be28872765ab6e2d246aac7c87",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/703fad32e4c8cbe609caf45a71a1d4266c830f0f",
+                "reference": "703fad32e4c8cbe609caf45a71a1d4266c830f0f",
                 "shasum": ""
             },
             "require": {
@@ -1259,13 +1319,13 @@
                 "symfony/console": "~2.7|~3.0|~4.0",
                 "symfony/dependency-injection": "~2.7|~3.0|~4.0",
                 "symfony/doctrine-bridge": "~2.7|~3.0|~4.0",
-                "symfony/framework-bundle": "~2.7|~3.0|~4.0"
+                "symfony/framework-bundle": "^2.7.22|~3.0|~4.0"
             },
             "conflict": {
                 "symfony/http-foundation": "<2.6"
             },
             "require-dev": {
-                "doctrine/orm": "~2.3",
+                "doctrine/orm": "~2.4",
                 "phpunit/phpunit": "^4.8.36|^5.7|^6.4",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0|~4.0",
@@ -1320,7 +1380,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-11-24T13:09:19+00:00"
+            "time": "2018-04-19T14:07:39+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -1669,16 +1729,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04"
+                "reference": "8790f594151ca6a2010c6218e09d96df67173ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/8790f594151ca6a2010c6218e09d96df67173ad3",
+                "reference": "8790f594151ca6a2010c6218e09d96df67173ad3",
                 "shasum": ""
             },
             "require": {
@@ -1687,7 +1747,7 @@
             },
             "require-dev": {
                 "dominicsayers/isemail": "dev-master",
-                "phpunit/phpunit": "^4.8.35",
+                "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
                 "satooshi/php-coveralls": "^1.0.1"
             },
             "suggest": {
@@ -1722,7 +1782,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2017-11-15T23:40:40+00:00"
+            "time": "2018-04-10T10:11:19+00:00"
         },
         {
             "name": "endroid/qr-code",
@@ -1849,16 +1909,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.3.2",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90"
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/68d0ea14d5a3f42a20e87632a5f84931e2709c90",
-                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
                 "shasum": ""
             },
             "require": {
@@ -1868,7 +1928,7 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
                 "psr/log": "^1.0"
             },
             "suggest": {
@@ -1910,7 +1970,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-03-26T16:33:04+00:00"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2334,16 +2394,16 @@
         },
         {
             "name": "khanamiryan/qrcode-detector-decoder",
-            "version": "1",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khanamiryan/php-qrcode-detector-decoder.git",
-                "reference": "96d5f80680b04803c4f1b69d6e01735e876b80c7"
+                "reference": "4ff2f14006930631ed30f0d15da72b032c96bc0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/96d5f80680b04803c4f1b69d6e01735e876b80c7",
-                "reference": "96d5f80680b04803c4f1b69d6e01735e876b80c7",
+                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/4ff2f14006930631ed30f0d15da72b032c96bc0a",
+                "reference": "4ff2f14006930631ed30f0d15da72b032c96bc0a",
                 "shasum": ""
             },
             "require": {
@@ -2354,11 +2414,11 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "lib/"
-                ],
+                "psr-4": {
+                    "Zxing\\": "lib/"
+                },
                 "files": [
-                    "lib/common/customFunctions.php"
+                    "lib/Common/customFunctions.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2374,26 +2434,26 @@
                 }
             ],
             "description": "QR code decoder / reader",
-            "homepage": "https://github.com/khanamiryan/php-qrcode-detector-decoder",
+            "homepage": "https://github.com/khanamiryan/php-qrcode-detector-decoder/",
             "keywords": [
                 "barcode",
                 "qr",
                 "zxing"
             ],
-            "time": "2017-01-13T09:11:46+00:00"
+            "time": "2018-04-01T20:25:53+00:00"
         },
         {
             "name": "knplabs/knp-components",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/knp-components.git",
-                "reference": "464e1ee889fe01144127b3811d1fa102519de682"
+                "reference": "b65f69ff04d2f1b7a67ae592273ca6f4d1aa3e5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/464e1ee889fe01144127b3811d1fa102519de682",
-                "reference": "464e1ee889fe01144127b3811d1fa102519de682",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/b65f69ff04d2f1b7a67ae592273ca6f4d1aa3e5f",
+                "reference": "b65f69ff04d2f1b7a67ae592273ca6f4d1aa3e5f",
                 "shasum": ""
             },
             "require": {
@@ -2453,7 +2513,7 @@
                 "pager",
                 "paginator"
             ],
-            "time": "2018-03-22T14:54:27+00:00"
+            "time": "2018-04-03T12:20:48+00:00"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -2913,16 +2973,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.11",
+            "version": "v2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
-                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
+                "reference": "258c89a6b97de7dfaf5b8c7607d0478e236b04fb",
                 "shasum": ""
             },
             "require": {
@@ -2957,7 +3017,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-09-27T21:40:39+00:00"
+            "time": "2018-04-04T21:24:14+00:00"
         },
         {
             "name": "php-http/cache-plugin",
@@ -4675,16 +4735,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "20e71c247a5a43ceb655db9712394d08c09b33ef"
+                "reference": "f1ba0552a9cd4df0191a58845fbd5541cf9eda2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/20e71c247a5a43ceb655db9712394d08c09b33ef",
-                "reference": "20e71c247a5a43ceb655db9712394d08c09b33ef",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/f1ba0552a9cd4df0191a58845fbd5541cf9eda2d",
+                "reference": "f1ba0552a9cd4df0191a58845fbd5541cf9eda2d",
                 "shasum": ""
             },
             "require": {
@@ -4733,20 +4793,20 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2018-03-08T16:39:26+00:00"
+            "time": "2018-04-03T16:29:41+00:00"
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.7",
+            "version": "v3.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "eb07b0eab0bda8441fbf94d06ad1f9896e0552cc"
+                "reference": "5304a36c5efbb01af7efe2bb5b1953dbaeebc293"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/eb07b0eab0bda8441fbf94d06ad1f9896e0552cc",
-                "reference": "eb07b0eab0bda8441fbf94d06ad1f9896e0552cc",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/5304a36c5efbb01af7efe2bb5b1953dbaeebc293",
+                "reference": "5304a36c5efbb01af7efe2bb5b1953dbaeebc293",
                 "shasum": ""
             },
             "require": {
@@ -4887,7 +4947,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-04-03T05:50:03+00:00"
+            "time": "2018-04-06T15:20:04+00:00"
         },
         {
             "name": "twig/extensions",
@@ -5175,16 +5235,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.7",
+            "version": "v3.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "e4b72beb8961340764367a804f21044e83fc19a8"
+                "reference": "48c669ec1a2b0425d4a82c7ad4bce2f5b947b95e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/e4b72beb8961340764367a804f21044e83fc19a8",
-                "reference": "e4b72beb8961340764367a804f21044e83fc19a8",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/48c669ec1a2b0425d4a82c7ad4bce2f5b947b95e",
+                "reference": "48c669ec1a2b0425d4a82c7ad4bce2f5b947b95e",
                 "shasum": ""
             },
             "require": {
@@ -5237,7 +5297,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2018-03-20T23:37:33+00:00"
+            "time": "2018-04-04T15:02:59+00:00"
         }
     ],
     "aliases": [],

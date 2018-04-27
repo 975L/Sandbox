@@ -32,6 +32,7 @@ class AppKernel extends Kernel
             new c975L\ShareButtonsBundle\c975LShareButtonsBundle(),
             new c975L\SiteBundle\c975LSiteBundle(),
             new c975L\ToolbarBundle\c975LToolbarBundle(),
+            new c975L\ExceptionCheckerBundle\c975LExceptionCheckerBundle(),
             new c975L\UserBundle\c975LUserBundle(),
             new AppBundle\AppBundle(),
         ];
