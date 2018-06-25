@@ -9,7 +9,7 @@
     </IfModule>
 
 #Default Email for site
-    ServerSignature EMail
+    ServerSignature Email
     SetEnv SERVER_ADMIN web@975l.com
 
 #Suppress signature from serve

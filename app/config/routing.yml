@@ -27,7 +27,7 @@ c975_l_contact_form:
     resource: "@c975LContactFormBundle/Controller/"
     type:     annotation
     prefix:   /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
 
@@ -39,7 +39,7 @@ c975_l_page_edit:
     resource: "@c975LPageEditBundle/Controller/"
     type:     annotation
     prefix: /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
 
@@ -47,7 +47,7 @@ c975_l_payment:
     resource: "@c975LPaymentBundle/Controller/"
     type:     annotation
     prefix: /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
 
@@ -55,7 +55,7 @@ c975_l_purchase_credits:
     resource: "@c975LPurchaseCreditsBundle/Controller/"
     type:     annotation
     prefix: /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
 
@@ -63,7 +63,7 @@ c975_l_user:
     resource: "@c975LUserBundle/Controller/"
     type:     annotation
     prefix:   /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
 
@@ -71,6 +71,6 @@ c975_l_exception_checker:
     resource: "@c975LExceptionCheckerBundle/Controller/"
     type:     annotation
     prefix:   /{_locale}
-    defaults:   { _locale: %locale% }
+    defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es

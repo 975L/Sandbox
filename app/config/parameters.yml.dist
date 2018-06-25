@@ -29,3 +29,5 @@ parameters:
     stripe_publishable_key_test: ~
     stripe_secret_key_live : ~
     stripe_publishable_key_live: ~
+
+    exceptionCheckerSecret: ~
