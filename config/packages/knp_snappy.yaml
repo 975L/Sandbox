@@ -1,0 +1,21 @@
+
+knp_snappy:
+    process_timeout: 20
+    temporary_folder: "%kernel.cache_dir%/snappy"
+    pdf:
+        enabled:    true
+        binary:     "%kernel.root_dir%/../vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64"
+        options:
+            print-media-type: true
+            page-size: A4
+            orientation: 'portrait'
+            encoding : utf-8
+            dpi: 300
+            images: true
+            image-quality: 80
+            margin-left: 10mm
+            margin-right: 10mm
+            margin-top: 10mm
+            margin-bottom: 10mm
+    image:
+        enabled:    false

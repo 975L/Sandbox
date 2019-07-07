@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://sandbox.975l.com/sitemap-index.xml

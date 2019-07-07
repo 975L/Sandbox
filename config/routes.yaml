@@ -1,0 +1,73 @@
+#hwi_oauth_redirect:
+#    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
+#    prefix:   /connect
+
+#hwi_oauth_connect:
+#    resource: "@HWIOAuthBundle/Resources/config/routing/connect.xml"
+#    prefix:   /connect
+
+#hwi_oauth_login:
+#    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
+#    prefix:   /login
+
+#facebook_login:
+#    path: /login/facebook
+
+#google_login:
+#    path: /login/google
+
+#live_login:
+#    path: /login/live
+
+c975_l_contact_form:
+    resource: "@c975LContactFormBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es
+
+c975_l_page_edit:
+    resource: "@c975LPageEditBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es
+
+c975_l_user:
+    resource: "@c975LUserBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es
+
+c975_l_email:
+    resource: "@c975LEmailBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+c975_l_exception_checker:
+    resource: "@c975LExceptionCheckerBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es
+
+c975_l_payment:
+    resource: "@c975LPaymentBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es
+
+c975_l_purchase_credits:
+    resource: "@c975LPurchaseCreditsBundle/Controller/"
+    type:     annotation
+    prefix:   /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es

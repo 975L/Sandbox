@@ -1,5 +1,8 @@
 ChangeLog
 
+v2.0
+- Migration Symfony 4 (07/07/2019)
+
 v1.1
 - Corrected error pages (04/05/2018)
 - Update of GitHookPostUpdate to delete APCu cache (25/06/2018)

@@ -1,0 +1,4 @@
+c975_l_xliff:
+    resource: "@c975LXliffBundle/Controller/"
+    type:     annotation
+    prefix:   /

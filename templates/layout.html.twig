@@ -1,0 +1,97 @@
+{% extends '@c975LSite/layout.html.twig' %}
+
+{% set site = 'Sandbox.975L.com' %}
+{% set author = 'Laurent Marquet' %}
+{% set firstOnlineDate = '2018-04-03' %}
+{% set logo = absolute_url(asset('images/og-image.png')) %}
+{% set favicon = absolute_url(asset('favicon.ico')) %}
+{% set appleTouchIcon = absolute_url(asset('apple-touch-icon.png')) %}
+{%
+    set languagesAlt = {
+        en: { title: 'English' },
+        fr: { title: 'Français' },
+        es: { title: 'Español' }
+        }
+%}
+{#
+    set matomo = {
+        'id': 5,
+        'url': 'https://975l.com/piwik'
+    }
+#}
+{%
+    set cookieConsent = {
+        'message': 'text.cookies_banner'|trans({}, 'site'),
+        'dismiss': 'text.cookies_dismiss'|trans({}, 'site'),
+        'link': 'label.cookies_policy'|trans({}, 'site'),
+        'href': path('pageedit_display', { 'page': 'cookies' })
+    }
+%}
+{%
+    set errImages = {
+        'err': asset('images/err404.png'),
+        'err401': asset('images/err401.png'),
+        'err403': asset('images/err403.png'),
+        'err404': asset('images/err404.png'),
+        'err410': asset('images/err410.png'),
+        'err500': asset('images/err500.png'),
+    }
+%}
+
+{# Css #}
+{% block stylesheets %}
+    {{ parent() }}
+    {{ inc_lib('bootstrap', 'css', '3.*') }}
+    {% if display == 'pdf' %}
+        {{ inc_content(absolute_url(asset('css/styles.min.css')), 'local') }}
+    {% else %}
+        {{ inc_font('Merienda:700') }}
+        {{ inc_lib(absolute_url(asset('css/styles.min.css')), 'local') }}
+    {% endif %}
+{% endblock %}
+
+{# Navigation #}
+{% block navigation %}
+    {{ include('navbar.html.twig') }}
+{% endblock %}
+
+{# Title #}
+{% block title %}
+    {% if app.request.get('_route') != null and app.request.get('_route') != 'pageedit_home' %}
+        <h1>
+            {{ title }}
+        </h1>
+    {% endif %}
+{% endblock %}
+
+{# Container #}
+{% block container %}
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        {% if display == 'html' %}
+            {# User DivData #}
+            {{ user_divData() }}
+            {# Credits DivData #}
+            {{ purchasecredits_divData() }}
+        {% endif %}
+    </div>
+{% endblock %}
+
+{# Share #}
+{% block share %}
+{% endblock %}
+
+{# Footer #}
+{% block footer %}
+    {{ include('footer.html.twig') }}
+{% endblock %}
+
+{# Javascript #}
+{% block javascripts %}
+    {{ parent() }}
+    {{ inc_lib('bootstrap', 'js', '3.*') }}
+    {% if display == 'html' %}
+        {{ inc_lib(absolute_url(asset('js/functions.min.js')), 'local') }}
+    {% endif %}
+{% endblock %}

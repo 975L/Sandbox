@@ -1,0 +1,35 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/book/security.html
+security:
+    encoders:
+        c975L\UserBundle\Entity\User: bcrypt
+    role_hierarchy:
+        ROLE_MODERATOR:   ROLE_USER
+        ROLE_ADMIN:       [ROLE_MODERATOR, ROLE_USER]
+        ROLE_SUPER_ADMIN: [ROLE_ADMIN, ROLE_MODERATOR, ROLE_USER]
+    providers:
+        c975_l_userbundle:
+            entity:
+                class: c975L\UserBundle\Entity\User
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|fonts|images|js)/
+            security: false
+        main:
+            pattern: ^/
+            provider: c975_l_userbundle
+            form_login:
+                login_path: user_signin
+                check_path: user_signin
+                default_target_path: user_dashboard
+                csrf_token_generator: security.csrf.token_manager
+            remember_me:
+                secret: '%env(APP_SECRET)%'
+                lifetime: 31536000
+                path: /
+                secure: true
+            anonymous:    true
+            logout:
+                path: user_signout
+                handlers: [c975L\UserBundle\Listener\LogoutListener]
+    access_control:
