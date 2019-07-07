@@ -16,14 +16,6 @@ use c975L\UserBundle\Entity\UserFullAbstract;
 class User extends UserFullAbstract
 {
     /**
-     * @Assert\Regex(
-     *      pattern="/^(live|google|facebook)$/i"
-     * )
-     * @ORM\Column(name="social_network", type="string", nullable=true)
-     */
-    protected $socialNetwork;
-
-    /**
      * @ORM\Column(name="credits", type="integer", nullable=true)
      */
     protected $credits;

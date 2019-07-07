@@ -1,5 +1,8 @@
 ChangeLog
 
+v2.0.1
+- Removed socialNetwork field in User Entity (07/07/2019)
+
 v2.0
 - Migration Symfony 4 (07/07/2019)
 
