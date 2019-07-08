@@ -312,16 +312,16 @@
         },
         {
             "name": "c975l/pageedit-bundle",
-            "version": "v2.2",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PageEditBundle.git",
-                "reference": "801228b052c9bd5efbbaae6afded17a72f5c93d9"
+                "reference": "f219bd1687f5109ad4e303d2612dd0cc4ac75e42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/801228b052c9bd5efbbaae6afded17a72f5c93d9",
-                "reference": "801228b052c9bd5efbbaae6afded17a72f5c93d9",
+                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/f219bd1687f5109ad4e303d2612dd0cc4ac75e42",
+                "reference": "f219bd1687f5109ad4e303d2612dd0cc4ac75e42",
                 "shasum": ""
             },
             "require": {
@@ -375,7 +375,7 @@
                 "pages",
                 "symfony"
             ],
-            "time": "2019-07-04T15:08:54+00:00"
+            "time": "2019-07-08T08:14:54+00:00"
         },
         {
             "name": "c975l/payment-bundle",

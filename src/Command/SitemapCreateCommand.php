@@ -1,14 +1,30 @@
 <?php
 namespace App\Command;
 
+use c975L\ConfigBundle\Service\ConfigServiceInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Twig\Environment;
 
 class SitemapCreateCommand extends ContainerAwareCommand
 {
-    protected $baseUrl = 'http://sandbox.975l.com';
+    protected $baseUrl = 'https://sandbox.975l.com';
+    private $configService;
+    private $sitemapFolder;
+    private $environment;
+
+    public function __construct(
+        ConfigServiceInterface $configService,
+        Environment $environment
+    )
+    {
+        parent::__construct();
+        $this->configService = $configService;
+        $this->environment = $environment;
+        $this->sitemapFolder = $this->configService->getContainerParameter('kernel.root_dir') . '/../public';
+    }
 
     protected function configure()
     {
@@ -38,11 +54,8 @@ class SitemapCreateCommand extends ContainerAwareCommand
         );
 
         //Writes file
-        $sitemapIndexContent = $this->getContainer()->get('templating')->render(
-            '@c975LPageEdit/sitemap-index.xml.twig',
-            array('sitemaps' => $sitemaps)
-        );
-        $sitemapIndexFile = $this->getContainer()->getParameter('kernel.root_dir') . '/../web/sitemap-index.xml';
+        $sitemapIndexContent = $this->environment->render('@c975LPageEdit/sitemap-index.xml.twig', array('sitemaps' => $sitemaps));
+        $sitemapIndexFile = $this->sitemapFolder . '/sitemap-index.xml';
         file_put_contents($sitemapIndexFile, $sitemapIndexContent);
     }
 
@@ -82,11 +95,8 @@ class SitemapCreateCommand extends ContainerAwareCommand
         }
 
         //Writes file
-        $sitemapContent = $this->getContainer()->get('templating')->render(
-            '@c975LPageEdit/sitemap.xml.twig',
-            array('pages' => $pages)
-        );
-        $sitemapFile = $this->getContainer()->getParameter('kernel.root_dir') . '/../web/sitemap-site.xml';
+        $sitemapContent = $this->environment->render('@c975LPageEdit/sitemap.xml.twig', array('pages' => $pages));
+        $sitemapFile = $this->sitemapFolder . '/sitemap-site.xml';
         file_put_contents($sitemapFile, $sitemapContent);
     }
 }

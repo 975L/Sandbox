@@ -1,15 +1,23 @@
 ChangeLog
 
+v2.0.2.1
+--------
+- Modification création sitemaps (08/07/2019)
+
 v2.0.2
+------
 - Correction .htaccess (07/07/2019)
 
 v2.0.1
+------
 - Removed socialNetwork field in User Entity (07/07/2019)
 
 v2.0
+----
 - Migration Symfony 4 (07/07/2019)
 
 v1.1
+----
 - Corrected error pages (04/05/2018)
 - Update of GitHookPostUpdate to delete APCu cache (25/06/2018)
 
