@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.1.1
+------
+- Suppressed SwiftMailer (15/07/2019)
+
 v2.1
 ----
 - Update bundles and made use of Symfony Mailer instead of SwiftMailer (15/07/2019)
