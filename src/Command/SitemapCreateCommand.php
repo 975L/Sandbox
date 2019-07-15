@@ -2,13 +2,13 @@
 namespace App\Command;
 
 use c975L\ConfigBundle\Service\ConfigServiceInterface;
-use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Twig\Environment;
 
-class SitemapCreateCommand extends ContainerAwareCommand
+class SitemapCreateCommand extends Command
 {
     protected $baseUrl = 'https://sandbox.975l.com';
     private $configService;

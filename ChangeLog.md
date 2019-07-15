@@ -1,8 +1,12 @@
 ChangeLog
 
+v2.1
+----
+- Update bundles and made use of Symfony Mailer instead of SwiftMailer (15/07/2019)
+
 v2.0.2.1
 --------
-- Modification création sitemaps (08/07/2019)
+- Modification sitemaps creation (08/07/2019)
 
 v2.0.2
 ------

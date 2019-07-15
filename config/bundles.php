@@ -31,4 +31,5 @@ return [
     c975L\CountLinesCodeBundle\c975LCountLinesCodeBundle::class => ['dev' => true, 'test' => true],
     c975L\XliffBundle\c975LXliffBundle::class => ['dev' => true, 'test' => true],
     c975L\PurchaseCreditsBundle\c975LPurchaseCreditsBundle::class => ['all' => true],
+    Twig\CssInliner\Bundle\TwigCssInlinerBundle::class => ['all' => true],
 ];
