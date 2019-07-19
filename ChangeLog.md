@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.1.2.1
+--------
+- Modifications apache-options.php (19/07/2019)
+
 v2.1.2
 ------
 - Re-added SwiftMailer as used by other bundles (15/07/2019)
