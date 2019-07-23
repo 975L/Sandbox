@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.1.3
+------
+- De-activated HwiOAuth (23/07/2019)
+
 v2.1.2.1
 --------
 - Modifications apache-options.php (19/07/2019)
