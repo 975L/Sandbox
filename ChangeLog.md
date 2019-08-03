@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.1.4
+------
+- Modification of htaccess to redirect encoded characters (03/08/2019)
+
 v2.1.3
 ------
 - De-activated HwiOAuth (23/07/2019)
