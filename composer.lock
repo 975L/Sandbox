@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0056d0c2b14424def16c8d204f9bfdc",
+    "content-hash": "ebe681bd4e6219e1dc7afd9b40811968",
     "packages": [
         {
             "name": "c975l/config-bundle",
-            "version": "v2.3.6.1",
+            "version": "v2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ConfigBundle.git",
-                "reference": "1f9a9e937dbb79ad06fe5d456e7536d58bd56e19"
+                "reference": "123679f87c5ea4e867a5cd150be66ceea2d713e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ConfigBundle/zipball/1f9a9e937dbb79ad06fe5d456e7536d58bd56e19",
-                "reference": "1f9a9e937dbb79ad06fe5d456e7536d58bd56e19",
+                "url": "https://api.github.com/repos/975L/ConfigBundle/zipball/123679f87c5ea4e867a5cd150be66ceea2d713e9",
+                "reference": "123679f87c5ea4e867a5cd150be66ceea2d713e9",
                 "shasum": ""
             },
             "require": {
@@ -46,14 +46,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Used to get/set the config params for a Symfony app",
@@ -63,20 +63,20 @@
                 "config",
                 "symfony"
             ],
-            "time": "2019-04-08T09:32:37+00:00"
+            "time": "2019-08-05T16:35:01+00:00"
         },
         {
             "name": "c975l/contactform-bundle",
-            "version": "v3.0.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ContactFormBundle.git",
-                "reference": "61d4c7ab94f9590c0a6fc133b1c99cfe2ca4c771"
+                "reference": "fd271409ff611bafe426f2d1a9d0f2da9a739a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/61d4c7ab94f9590c0a6fc133b1c99cfe2ca4c771",
-                "reference": "61d4c7ab94f9590c0a6fc133b1c99cfe2ca4c771",
+                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/fd271409ff611bafe426f2d1a9d0f2da9a739a79",
+                "reference": "fd271409ff611bafe426f2d1a9d0f2da9a739a79",
                 "shasum": ""
             },
             "require": {
@@ -108,14 +108,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to manage simple contact form",
@@ -125,20 +125,20 @@
                 "contact",
                 "symfony"
             ],
-            "time": "2019-07-15T13:36:20+00:00"
+            "time": "2019-08-06T07:37:45+00:00"
         },
         {
             "name": "c975l/email-bundle",
-            "version": "v3.0.1",
+            "version": "v3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/EmailBundle.git",
-                "reference": "0c2d75fb786443f6354e371d4cc68011d75c5965"
+                "reference": "291515356d8ef05fcedb4cc3df201b3542524c6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/EmailBundle/zipball/0c2d75fb786443f6354e371d4cc68011d75c5965",
-                "reference": "0c2d75fb786443f6354e371d4cc68011d75c5965",
+                "url": "https://api.github.com/repos/975L/EmailBundle/zipball/291515356d8ef05fcedb4cc3df201b3542524c6a",
+                "reference": "291515356d8ef05fcedb4cc3df201b3542524c6a",
                 "shasum": ""
             },
             "require": {
@@ -175,14 +175,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to manage sending emails and store in a database ",
@@ -191,20 +191,20 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2019-07-15T13:33:41+00:00"
+            "time": "2019-08-05T16:36:43+00:00"
         },
         {
             "name": "c975l/exceptionchecker-bundle",
-            "version": "v2.1.2",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ExceptionCheckerBundle.git",
-                "reference": "bba948f901d49da975cc14b0950e7a20e40595c1"
+                "reference": "8224eaa9d242038aa61e242d549037bf8a5d811e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ExceptionCheckerBundle/zipball/bba948f901d49da975cc14b0950e7a20e40595c1",
-                "reference": "bba948f901d49da975cc14b0950e7a20e40595c1",
+                "url": "https://api.github.com/repos/975L/ExceptionCheckerBundle/zipball/8224eaa9d242038aa61e242d549037bf8a5d811e",
+                "reference": "8224eaa9d242038aa61e242d549037bf8a5d811e",
                 "shasum": ""
             },
             "require": {
@@ -237,14 +237,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Listener for Symfony Exceptions in order to redirect to another url, or throw GoneException with a list of urls",
@@ -255,20 +255,20 @@
                 "redirect",
                 "symfony"
             ],
-            "time": "2019-07-15T15:42:21+00:00"
+            "time": "2019-08-06T07:43:22+00:00"
         },
         {
             "name": "c975l/includelibrary-bundle",
-            "version": "v1.9.8",
+            "version": "v1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/IncludeLibraryBundle.git",
-                "reference": "ab1b39429f8a64040f839dc7868738819b31de46"
+                "reference": "5f33fa03223be6435c99e317327fab9c1b7fb7d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/IncludeLibraryBundle/zipball/ab1b39429f8a64040f839dc7868738819b31de46",
-                "reference": "ab1b39429f8a64040f839dc7868738819b31de46",
+                "url": "https://api.github.com/repos/975L/IncludeLibraryBundle/zipball/5f33fa03223be6435c99e317327fab9c1b7fb7d6",
+                "reference": "5f33fa03223be6435c99e317327fab9c1b7fb7d6",
                 "shasum": ""
             },
             "require": {
@@ -293,14 +293,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to include easily main libraries jQuery, Bootstrap, etc. to your html header",
@@ -310,20 +310,20 @@
                 "library",
                 "symfony"
             ],
-            "time": "2019-07-12T12:02:28+00:00"
+            "time": "2019-08-05T16:40:49+00:00"
         },
         {
             "name": "c975l/pageedit-bundle",
-            "version": "v2.2.2",
+            "version": "v2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PageEditBundle.git",
-                "reference": "785df297cbcafb87e1bbfe50722cdc02ddaf0221"
+                "reference": "130027b9b6a78b7b6efb432c773d44be0559a125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/785df297cbcafb87e1bbfe50722cdc02ddaf0221",
-                "reference": "785df297cbcafb87e1bbfe50722cdc02ddaf0221",
+                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/130027b9b6a78b7b6efb432c773d44be0559a125",
+                "reference": "130027b9b6a78b7b6efb432c773d44be0559a125",
                 "shasum": ""
             },
             "require": {
@@ -359,14 +359,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Create, modify and manage web pages",
@@ -377,20 +377,20 @@
                 "pages",
                 "symfony"
             ],
-            "time": "2019-07-15T14:31:51+00:00"
+            "time": "2019-08-05T16:41:38+00:00"
         },
         {
             "name": "c975l/payment-bundle",
-            "version": "v3.0.1",
+            "version": "v3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PaymentBundle.git",
-                "reference": "57cbda1b9f2e7f4eb03e007bc27d529edea4b25e"
+                "reference": "38ec9e0ff8e3ee8ace393b225a3caf5729397b00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PaymentBundle/zipball/57cbda1b9f2e7f4eb03e007bc27d529edea4b25e",
-                "reference": "57cbda1b9f2e7f4eb03e007bc27d529edea4b25e",
+                "url": "https://api.github.com/repos/975L/PaymentBundle/zipball/38ec9e0ff8e3ee8ace393b225a3caf5729397b00",
+                "reference": "38ec9e0ff8e3ee8ace393b225a3caf5729397b00",
                 "shasum": ""
             },
             "require": {
@@ -425,14 +425,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Defines form, transactions, database store, etc. for payments using Stripe",
@@ -443,20 +443,20 @@
                 "stripe",
                 "symfony"
             ],
-            "time": "2019-07-15T13:43:56+00:00"
+            "time": "2019-08-05T16:42:35+00:00"
         },
         {
             "name": "c975l/purchasecredits-bundle",
-            "version": "v3.0.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PurchaseCreditsBundle.git",
-                "reference": "d283fb33a2bcdd52d3e99072b696b871e48bfafd"
+                "reference": "7f036032e23cc95625e9f5b7676d1182cba8e64c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/d283fb33a2bcdd52d3e99072b696b871e48bfafd",
-                "reference": "d283fb33a2bcdd52d3e99072b696b871e48bfafd",
+                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/7f036032e23cc95625e9f5b7676d1182cba8e64c",
+                "reference": "7f036032e23cc95625e9f5b7676d1182cba8e64c",
                 "shasum": ""
             },
             "require": {
@@ -492,14 +492,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to purchase and use credits within a website",
@@ -510,20 +510,20 @@
                 "symfony",
                 "voucher"
             ],
-            "time": "2019-07-15T15:35:25+00:00"
+            "time": "2019-08-05T15:53:34+00:00"
         },
         {
             "name": "c975l/services-bundle",
-            "version": "v1.3",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ServicesBundle.git",
-                "reference": "61a9c3dfef4d8e288156cc37803245ddda8b816a"
+                "reference": "04a00a005032e6a66ce32da57280c9087751e328"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/61a9c3dfef4d8e288156cc37803245ddda8b816a",
-                "reference": "61a9c3dfef4d8e288156cc37803245ddda8b816a",
+                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/04a00a005032e6a66ce32da57280c9087751e328",
+                "reference": "04a00a005032e6a66ce32da57280c9087751e328",
                 "shasum": ""
             },
             "require": {
@@ -568,20 +568,78 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2019-08-03T13:57:01+00:00"
+            "time": "2019-08-07T08:21:34+00:00"
         },
         {
-            "name": "c975l/site-bundle",
-            "version": "v2.1.1.1",
+            "name": "c975l/sharebuttons-bundle",
+            "version": "v1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/975L/SiteBundle.git",
-                "reference": "9e0682ed81c63289088350fadd0ecd7befbc90c2"
+                "url": "https://github.com/975L/ShareButtonsBundle.git",
+                "reference": "60ad5135445cb317522376caeaa67c2a9673cea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/9e0682ed81c63289088350fadd0ecd7befbc90c2",
-                "reference": "9e0682ed81c63289088350fadd0ecd7befbc90c2",
+                "url": "https://api.github.com/repos/975L/ShareButtonsBundle/zipball/60ad5135445cb317522376caeaa67c2a9673cea3",
+                "reference": "60ad5135445cb317522376caeaa67c2a9673cea3",
+                "shasum": ""
+            },
+            "require": {
+                "c975l/config-bundle": "^2",
+                "c975l/email-bundle": "^3",
+                "c975l/services-bundle": "^1",
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0",
+                "phpunit/phpunit": "^7",
+                "rector/rector": "^0.3.30",
+                "symplify/easy-coding-standard": "^5.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "c975L\\ShareButtonsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
+                },
+                {
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
+                }
+            ],
+            "description": "Provides share buttons in differents views, with possibility to provide url",
+            "homepage": "https://github.com/975L/ShareButtonsBundle",
+            "keywords": [
+                "bundle",
+                "buttons",
+                "share",
+                "symfony"
+            ],
+            "time": "2019-08-08T08:20:09+00:00"
+        },
+        {
+            "name": "c975l/site-bundle",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/975L/SiteBundle.git",
+                "reference": "237ad7bba11031611a12a9eecbd2288c831da386"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/237ad7bba11031611a12a9eecbd2288c831da386",
+                "reference": "237ad7bba11031611a12a9eecbd2288c831da386",
                 "shasum": ""
             },
             "require": {
@@ -611,14 +669,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Groups common files and settings to create a website",
@@ -628,20 +686,20 @@
                 "symfony",
                 "website"
             ],
-            "time": "2019-06-03T13:17:32+00:00"
+            "time": "2019-08-05T16:44:15+00:00"
         },
         {
             "name": "c975l/toolbar-bundle",
-            "version": "v1.8.15",
+            "version": "v1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ToolbarBundle.git",
-                "reference": "effc9cd5fe4cd6deba863c27bf69d30cfd859106"
+                "reference": "a506628ecf2973e1cb45bbdf46d0debea5c30016"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ToolbarBundle/zipball/effc9cd5fe4cd6deba863c27bf69d30cfd859106",
-                "reference": "effc9cd5fe4cd6deba863c27bf69d30cfd859106",
+                "url": "https://api.github.com/repos/975L/ToolbarBundle/zipball/a506628ecf2973e1cb45bbdf46d0debea5c30016",
+                "reference": "a506628ecf2973e1cb45bbdf46d0debea5c30016",
                 "shasum": ""
             },
             "require": {
@@ -667,14 +725,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to add a common toolbar to products developed by 975L.com",
@@ -683,20 +741,20 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2019-07-14T09:41:20+00:00"
+            "time": "2019-08-07T08:50:20+00:00"
         },
         {
             "name": "c975l/user-bundle",
-            "version": "v3.0.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/UserBundle.git",
-                "reference": "45c2fc2c4507e41ed30f45797fb07ee3a72e549f"
+                "reference": "65051b371c4fb0c81ba9cfad87acc471a17c0375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/UserBundle/zipball/45c2fc2c4507e41ed30f45797fb07ee3a72e549f",
-                "reference": "45c2fc2c4507e41ed30f45797fb07ee3a72e549f",
+                "url": "https://api.github.com/repos/975L/UserBundle/zipball/65051b371c4fb0c81ba9cfad87acc471a17c0375",
+                "reference": "65051b371c4fb0c81ba9cfad87acc471a17c0375",
                 "shasum": ""
             },
             "require": {
@@ -733,14 +791,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "Bundle to manage user profile, by users and admin",
@@ -750,7 +808,7 @@
                 "symfony",
                 "user"
             ],
-            "time": "2019-07-17T13:26:46+00:00"
+            "time": "2019-08-05T16:33:18+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -5395,21 +5453,21 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "999878a3a09d73cae157b0cf89bb6fb2cc073057"
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/999878a3a09d73cae157b0cf89bb6fb2cc073057",
-                "reference": "999878a3a09d73cae157b0cf89bb6fb2cc073057",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/66810b9d6eb4af54d543867909d65ab9af654d7e",
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/intl": "~2.3|~3.0|~4.0"
+                "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -5417,7 +5475,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -5449,20 +5507,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-01-07T19:39:47+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af"
+                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c766e95bec706cdd89903b1eda8afab7d7a6b7af",
-                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
+                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
                 "shasum": ""
             },
             "require": {
@@ -5476,7 +5534,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -5493,12 +5551,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Laurent Bassin",
                     "email": "laurent@bassin.info"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
@@ -5511,20 +5569,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-03-04T13:44:35+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
                 "shasum": ""
             },
             "require": {
@@ -5536,7 +5594,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -5570,20 +5628,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
+                "reference": "04ce3335667451138df4307d6a9b61565560199e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/04ce3335667451138df4307d6a9b61565560199e",
+                "reference": "04ce3335667451138df4307d6a9b61565560199e",
                 "shasum": ""
             },
             "require": {
@@ -5592,7 +5650,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -5625,20 +5683,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd"
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188",
                 "shasum": ""
             },
             "require": {
@@ -5647,7 +5705,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -5683,7 +5741,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/process",
@@ -7436,16 +7494,16 @@
     "packages-dev": [
         {
             "name": "c975l/countlinescode-bundle",
-            "version": "v1.4.4.1",
+            "version": "v1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/CountLinesCodeBundle.git",
-                "reference": "8de18189ed4c9c0c59be98f65fac8f4dac13c832"
+                "reference": "6d2feb46cc3425ace209cf42c4d81d0c5afa8ec5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/CountLinesCodeBundle/zipball/8de18189ed4c9c0c59be98f65fac8f4dac13c832",
-                "reference": "8de18189ed4c9c0c59be98f65fac8f4dac13c832",
+                "url": "https://api.github.com/repos/975L/CountLinesCodeBundle/zipball/6d2feb46cc3425ace209cf42c4d81d0c5afa8ec5",
+                "reference": "6d2feb46cc3425ace209cf42c4d81d0c5afa8ec5",
                 "shasum": ""
             },
             "require": {
@@ -7470,14 +7528,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "This bundle counts the lines of code written in a Symfony project",
@@ -7488,20 +7546,20 @@
                 "count",
                 "symfony"
             ],
-            "time": "2019-04-08T09:31:12+00:00"
+            "time": "2019-08-06T07:26:54+00:00"
         },
         {
             "name": "c975l/xliff-bundle",
-            "version": "v2.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/XliffBundle.git",
-                "reference": "cfb8f5b233b6c82988c2d77bf446e13d16de1b2f"
+                "reference": "f2e8501bb887c758b4dd07c0f41b03b0a249d718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/XliffBundle/zipball/cfb8f5b233b6c82988c2d77bf446e13d16de1b2f",
-                "reference": "cfb8f5b233b6c82988c2d77bf446e13d16de1b2f",
+                "url": "https://api.github.com/repos/975L/XliffBundle/zipball/f2e8501bb887c758b4dd07c0f41b03b0a249d718",
+                "reference": "f2e8501bb887c758b4dd07c0f41b03b0a249d718",
                 "shasum": ""
             },
             "require": {
@@ -7533,14 +7591,14 @@
             ],
             "authors": [
                 {
-                    "name": "975L Community",
-                    "homepage": "https://github.com/975L"
+                    "name": "Laurent Marquet",
+                    "role": "Developer",
+                    "email": "laurent.marquet@laposte.net",
+                    "homepage": "https://github.com/LaurentMarquet"
                 },
                 {
-                    "name": "Laurent Marquet",
-                    "email": "laurent.marquet@laposte.net",
-                    "homepage": "https://github.com/LaurentMarquet",
-                    "role": "Developer"
+                    "name": "975L Community",
+                    "homepage": "https://github.com/975L"
                 }
             ],
             "description": "This bundle exports the content of a database table in xlf files",
@@ -7553,7 +7611,7 @@
                 "xlf",
                 "xliff"
             ],
-            "time": "2019-07-01T13:35:30+00:00"
+            "time": "2019-08-05T15:23:32+00:00"
         },
         {
             "name": "composer/semver",
@@ -7801,7 +7859,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.30",
+            "version": "v5.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -7845,16 +7903,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.30",
+            "version": "v5.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "1d82de27c37ee6e8493dac0521cbda5b9456626c"
+                "reference": "60fdf2cd0fe8092947f42add1681c34fa252af33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/1d82de27c37ee6e8493dac0521cbda5b9456626c",
-                "reference": "1d82de27c37ee6e8493dac0521cbda5b9456626c",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/60fdf2cd0fe8092947f42add1681c34fa252af33",
+                "reference": "60fdf2cd0fe8092947f42add1681c34fa252af33",
                 "shasum": ""
             },
             "require": {
@@ -7902,7 +7960,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-07-26T06:46:07+00:00"
+            "time": "2019-08-06T08:53:24+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -7957,16 +8015,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.22.0",
+            "version": "2.22.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e"
+                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1a0e48b5f656065ba3c265b058b25d36c2162a5e",
-                "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
+                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
                 "shasum": ""
             },
             "require": {
@@ -8020,7 +8078,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-07-28T09:02:12+00:00"
+            "time": "2019-08-07T12:36:44+00:00"
         },
         {
             "name": "nette/bootstrap",

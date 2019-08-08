@@ -80,6 +80,9 @@
 
 {# Share #}
 {% block share %}
+    <div class="container share hidden-print" id="share">
+        {{ sharebuttons('main', 'distinct') }}
+    </div>
 {% endblock %}
 
 {# Footer #}

@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.1.5
+------
+- Added c975L/ShareButtonsBundle (08/08/2019)
+
 v2.1.4
 ------
 - Modification of htaccess to redirect encoded characters (03/08/2019)

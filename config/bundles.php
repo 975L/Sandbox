@@ -32,4 +32,5 @@ return [
     c975L\PurchaseCreditsBundle\c975LPurchaseCreditsBundle::class => ['all' => true],
     Twig\CssInliner\Bundle\TwigCssInlinerBundle::class => ['all' => true],
     Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle::class => ['all' => true],
+    c975L\ShareButtonsBundle\c975LShareButtonsBundle::class => ['all' => true],
 ];

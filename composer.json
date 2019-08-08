@@ -22,6 +22,7 @@
         "c975l/pageedit-bundle": "^2",
         "c975l/payment-bundle": "^3",
         "c975l/purchasecredits-bundle": "^3",
+        "c975l/sharebuttons-bundle": "^1",
         "c975l/site-bundle": "^2",
         "c975l/user-bundle": "^3",
         "doctrine/doctrine-bundle": "^1",

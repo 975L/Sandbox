@@ -71,3 +71,11 @@ c975_l_purchase_credits:
     defaults:   { _locale: '%locale%' }
     requirements:
         _locale: en|fr|es
+
+c975_l_share_buttons:
+    resource: "@c975LShareButtonsBundle/Controller/"
+    type:     annotation
+    prefix: /{_locale}
+    defaults:   { _locale: '%locale%' }
+    requirements:
+        _locale: en|fr|es

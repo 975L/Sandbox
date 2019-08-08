@@ -2,7 +2,7 @@
 # http://symfony.com/doc/current/book/security.html
 security:
     encoders:
-        c975L\UserBundle\Entity\User: bcrypt
+        c975L\UserBundle\Entity\User: auto
     role_hierarchy:
         ROLE_MODERATOR:   ROLE_USER
         ROLE_ADMIN:       [ROLE_MODERATOR, ROLE_USER]

@@ -1,3 +1,0 @@
-c975_l_count_lines_code:
-    extensions: ['php', 'js', 'twig', 'css', 'sql', 'sh']
-    folders: ['app/Resources/views', 'app/scripts', 'app/sql', 'src/AppBundle', 'tests/AppBundle', 'web/css']
