@@ -67,16 +67,16 @@
         },
         {
             "name": "c975l/contactform-bundle",
-            "version": "v3.1.2",
+            "version": "v3.1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ContactFormBundle.git",
-                "reference": "fd271409ff611bafe426f2d1a9d0f2da9a739a79"
+                "reference": "0f66aec62e6fb3000ac16c0023d54dc214fec2c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/fd271409ff611bafe426f2d1a9d0f2da9a739a79",
-                "reference": "fd271409ff611bafe426f2d1a9d0f2da9a739a79",
+                "url": "https://api.github.com/repos/975L/ContactFormBundle/zipball/0f66aec62e6fb3000ac16c0023d54dc214fec2c9",
+                "reference": "0f66aec62e6fb3000ac16c0023d54dc214fec2c9",
                 "shasum": ""
             },
             "require": {
@@ -125,7 +125,7 @@
                 "contact",
                 "symfony"
             ],
-            "time": "2019-08-06T07:37:45+00:00"
+            "time": "2019-08-10T16:57:12+00:00"
         },
         {
             "name": "c975l/email-bundle",
