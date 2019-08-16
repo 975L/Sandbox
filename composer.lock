@@ -447,16 +447,16 @@
         },
         {
             "name": "c975l/purchasecredits-bundle",
-            "version": "v3.1.1",
+            "version": "v3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PurchaseCreditsBundle.git",
-                "reference": "7f036032e23cc95625e9f5b7676d1182cba8e64c"
+                "reference": "1cdc51c1535e34f56cc49f29d10cdfafbddc468b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/7f036032e23cc95625e9f5b7676d1182cba8e64c",
-                "reference": "7f036032e23cc95625e9f5b7676d1182cba8e64c",
+                "url": "https://api.github.com/repos/975L/PurchaseCreditsBundle/zipball/1cdc51c1535e34f56cc49f29d10cdfafbddc468b",
+                "reference": "1cdc51c1535e34f56cc49f29d10cdfafbddc468b",
                 "shasum": ""
             },
             "require": {
@@ -510,20 +510,20 @@
                 "symfony",
                 "voucher"
             ],
-            "time": "2019-08-05T15:53:34+00:00"
+            "time": "2019-08-11T14:03:16+00:00"
         },
         {
             "name": "c975l/services-bundle",
-            "version": "v1.5",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ServicesBundle.git",
-                "reference": "1e83bb941ff1eef3b3a742cd0199ebb4257cf686"
+                "reference": "b0dd08fabacb4e0b0c8d6039eefe57caaaea9b98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/1e83bb941ff1eef3b3a742cd0199ebb4257cf686",
-                "reference": "1e83bb941ff1eef3b3a742cd0199ebb4257cf686",
+                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/b0dd08fabacb4e0b0c8d6039eefe57caaaea9b98",
+                "reference": "b0dd08fabacb4e0b0c8d6039eefe57caaaea9b98",
                 "shasum": ""
             },
             "require": {
@@ -569,7 +569,7 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2019-08-09T20:26:15+00:00"
+            "time": "2019-08-12T13:24:20+00:00"
         },
         {
             "name": "c975l/sharebuttons-bundle",
@@ -746,16 +746,16 @@
         },
         {
             "name": "c975l/user-bundle",
-            "version": "v3.1.1",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/UserBundle.git",
-                "reference": "65051b371c4fb0c81ba9cfad87acc471a17c0375"
+                "reference": "41c85f1bee835a6471d4ac482905efb876a2c858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/UserBundle/zipball/65051b371c4fb0c81ba9cfad87acc471a17c0375",
-                "reference": "65051b371c4fb0c81ba9cfad87acc471a17c0375",
+                "url": "https://api.github.com/repos/975L/UserBundle/zipball/41c85f1bee835a6471d4ac482905efb876a2c858",
+                "reference": "41c85f1bee835a6471d4ac482905efb876a2c858",
                 "shasum": ""
             },
             "require": {
@@ -809,7 +809,7 @@
                 "symfony",
                 "user"
             ],
-            "time": "2019-08-05T16:33:18+00:00"
+            "time": "2019-08-16T11:39:44+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -2079,16 +2079,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.10",
+            "version": "2.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec"
+                "reference": "92dd169c32f6f55ba570c309d83f5209cefb5e23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
-                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/92dd169c32f6f55ba570c309d83f5209cefb5e23",
+                "reference": "92dd169c32f6f55ba570c309d83f5209cefb5e23",
                 "shasum": ""
             },
             "require": {
@@ -2107,7 +2107,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -2133,7 +2133,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-07-19T20:52:08+00:00"
+            "time": "2019-08-13T17:33:27+00:00"
         },
         {
             "name": "fig/link-util",
@@ -2191,16 +2191,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.10.16",
+            "version": "8.10.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "c62db205bb94fef8bd377c12d3a14e5677895db2"
+                "reference": "528e45db57b3dfa3d89965e52b635c50b285d584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/c62db205bb94fef8bd377c12d3a14e5677895db2",
-                "reference": "c62db205bb94fef8bd377c12d3a14e5677895db2",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/528e45db57b3dfa3d89965e52b635c50b285d584",
+                "reference": "528e45db57b3dfa3d89965e52b635c50b285d584",
                 "shasum": ""
             },
             "require": {
@@ -2255,7 +2255,7 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2019-08-01T13:17:58+00:00"
+            "time": "2019-08-15T09:22:06+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -2403,16 +2403,16 @@
         },
         {
             "name": "knplabs/knp-components",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/knp-components.git",
-                "reference": "e4edbbe12c930ed2c0cf7d624b438315471f5e83"
+                "reference": "972913c65dc363f44977e89460776e276ee41214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/e4edbbe12c930ed2c0cf7d624b438315471f5e83",
-                "reference": "e4edbbe12c930ed2c0cf7d624b438315471f5e83",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/972913c65dc363f44977e89460776e276ee41214",
+                "reference": "972913c65dc363f44977e89460776e276ee41214",
                 "shasum": ""
             },
             "require": {
@@ -2474,7 +2474,7 @@
                 "pager",
                 "paginator"
             ],
-            "time": "2019-07-15T12:05:35+00:00"
+            "time": "2019-08-13T12:32:53+00:00"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -7860,7 +7860,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.31",
+            "version": "v5.8.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -7904,16 +7904,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.31",
+            "version": "v5.8.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "60fdf2cd0fe8092947f42add1681c34fa252af33"
+                "reference": "7aabcab4634a1c7865fa6acb6b1b810cf4b699ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/60fdf2cd0fe8092947f42add1681c34fa252af33",
-                "reference": "60fdf2cd0fe8092947f42add1681c34fa252af33",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/7aabcab4634a1c7865fa6acb6b1b810cf4b699ea",
+                "reference": "7aabcab4634a1c7865fa6acb6b1b810cf4b699ea",
                 "shasum": ""
             },
             "require": {
@@ -7961,7 +7961,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-08-06T08:53:24+00:00"
+            "time": "2019-08-11T12:48:29+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -8016,16 +8016,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.22.3",
+            "version": "2.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e"
+                "reference": "97a08830a22ce0b69549a4966773c0eae900468d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
-                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/97a08830a22ce0b69549a4966773c0eae900468d",
+                "reference": "97a08830a22ce0b69549a4966773c0eae900468d",
                 "shasum": ""
             },
             "require": {
@@ -8072,14 +8072,14 @@
                     "homepage": "http://github.com/kylekatarnls"
                 }
             ],
-            "description": "A simple API extension for DateTime.",
+            "description": "A API extension for DateTime that supports 281 different languages.",
             "homepage": "http://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
                 "time"
             ],
-            "time": "2019-08-07T12:36:44+00:00"
+            "time": "2019-08-12T17:19:41+00:00"
         },
         {
             "name": "nette/bootstrap",
@@ -8557,16 +8557,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420"
+                "reference": "e612609022e935f3d0337c1295176505b41188c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
-                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/e612609022e935f3d0337c1295176505b41188c8",
+                "reference": "e612609022e935f3d0337c1295176505b41188c8",
                 "shasum": ""
             },
             "require": {
@@ -8574,7 +8574,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.5 || ^7.0"
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -8604,7 +8604,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-05-25T20:07:01+00:00"
+            "time": "2019-08-12T20:17:41+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
