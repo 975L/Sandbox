@@ -1,8 +1,13 @@
 ChangeLog
 
+
+v2.1.8
+------
+- Updates of bundles (16/08/2019)
+
 v2.1.7
 ------
-- Mise à jour bundles (16/08/2019)
+- Updates of bundles (16/08/2019)
 
 v2.1.6.1
 --------
