@@ -147,9 +147,6 @@
     "egulias/email-validator": {
         "version": "2.1.9"
     },
-    "fig/link-util": {
-        "version": "1.0.0"
-    },
     "friendsofphp/php-cs-fixer": {
         "version": "2.2",
         "recipe": {
@@ -390,6 +387,9 @@
     },
     "symfony/dotenv": {
         "version": "v4.3.2"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.0"
     },
     "symfony/event-dispatcher": {
         "version": "v4.3.2"

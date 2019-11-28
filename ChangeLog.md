@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.2
+----
+- Migrated to Symfony 4.4 (28/11/2019)
+- Compressed images to decrease download time (28/11/2019)
 
 v2.1.8
 ------
