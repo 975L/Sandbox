@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.3
+----
+- Updated bundles (05/02/2020)
+
 v2.2
 ----
 - Migrated to Symfony 4.4 (28/11/2019)

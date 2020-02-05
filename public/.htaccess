@@ -46,10 +46,6 @@ DirectoryIndex index.php
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-#Force non-www:
-        RewriteCond %{HTTP_HOST} ^www\.975l\.com [NC]
-        RewriteRule ^(.*)$ https://sandbox.975l.com/$1 [R=301,NC,L]
-
 #Force https use
         RewriteCond %{HTTPS} off
 #        RewriteCond %{HTTP:X-Forwarded-Proto} !https
