@@ -706,14 +706,8 @@
     "tijsverkoyen/css-to-inline-styles": {
         "version": "2.2.1"
     },
-    "twig/cssinliner-extension": {
-        "version": "1.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "3460ba58f2609c9f1a38c6e9f2a416ff911f0861"
-        }
+    "twig/cssinliner-extra": {
+        "version": "v3.0.3"
     },
     "twig/extensions": {
         "version": "1.0",

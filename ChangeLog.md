@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.4
+----
+- Updated bundles (19/02/2020)
+
 v2.3
 ----
 - Updated bundles (05/02/2020)
