@@ -506,16 +506,16 @@
         },
         {
             "name": "c975l/services-bundle",
-            "version": "v1.6.3",
+            "version": "v1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ServicesBundle.git",
-                "reference": "a58582148392adf5bbafce501dedb501c9988622"
+                "reference": "b7cdf63b25e9750e79c09a387e8d97d8f944e02e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/a58582148392adf5bbafce501dedb501c9988622",
-                "reference": "a58582148392adf5bbafce501dedb501c9988622",
+                "url": "https://api.github.com/repos/975L/ServicesBundle/zipball/b7cdf63b25e9750e79c09a387e8d97d8f944e02e",
+                "reference": "b7cdf63b25e9750e79c09a387e8d97d8f944e02e",
                 "shasum": ""
             },
             "require": {
@@ -561,7 +561,7 @@
                 "bundle",
                 "symfony"
             ],
-            "time": "2019-10-07T11:26:58+00:00"
+            "time": "2020-02-24T16:16:47+00:00"
         },
         {
             "name": "c975l/sharebuttons-bundle",
@@ -622,16 +622,16 @@
         },
         {
             "name": "c975l/site-bundle",
-            "version": "v2.3",
+            "version": "v2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/SiteBundle.git",
-                "reference": "b46930fa9efc33b8a2ac56a0035ea7648a95c754"
+                "reference": "4186385731e25c19714781e3faa28eb980bbd89c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/b46930fa9efc33b8a2ac56a0035ea7648a95c754",
-                "reference": "b46930fa9efc33b8a2ac56a0035ea7648a95c754",
+                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/4186385731e25c19714781e3faa28eb980bbd89c",
+                "reference": "4186385731e25c19714781e3faa28eb980bbd89c",
                 "shasum": ""
             },
             "require": {
@@ -677,7 +677,7 @@
                 "symfony",
                 "website"
             ],
-            "time": "2020-02-19T13:43:31+00:00"
+            "time": "2020-02-19T14:19:44+00:00"
         },
         {
             "name": "c975l/toolbar-bundle",
@@ -2279,16 +2279,16 @@
         },
         {
             "name": "knplabs/knp-components",
-            "version": "v2.3.2",
+            "version": "v2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/knp-components.git",
-                "reference": "f4465d77d87f56b132ce23bb5fc6300265e6b889"
+                "reference": "5a89e60dfe93179f329e35f92ed9348d52143f7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/f4465d77d87f56b132ce23bb5fc6300265e6b889",
-                "reference": "f4465d77d87f56b132ce23bb5fc6300265e6b889",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/5a89e60dfe93179f329e35f92ed9348d52143f7b",
+                "reference": "5a89e60dfe93179f329e35f92ed9348d52143f7b",
                 "shasum": ""
             },
             "require": {
@@ -2350,7 +2350,7 @@
                 "pager",
                 "paginator"
             ],
-            "time": "2020-02-11T09:47:37+00:00"
+            "time": "2020-02-24T15:11:24+00:00"
         },
         {
             "name": "knplabs/knp-paginator-bundle",

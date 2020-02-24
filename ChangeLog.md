@@ -1,5 +1,9 @@
 ChangeLog
 
+v2.4.1
+------
+- Updated bundles for Backup script (24/02/2020)
+
 v2.4
 ----
 - Updated bundles (19/02/2020)
