@@ -1,4 +1,8 @@
-ChangeLog
+# ChangeLog
+
+## v2.4.3
+
+- Updated bundles (22/07/2020)
 
 ## v2.4.2
 
