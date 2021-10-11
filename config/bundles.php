@@ -24,7 +24,6 @@ return [
     c975L\PageEditBundle\c975LPageEditBundle::class => ['all' => true],
     c975L\PaymentBundle\c975LPaymentBundle::class => ['all' => true],
     c975L\SiteBundle\c975LSiteBundle::class => ['all' => true],
-    Misd\PhoneNumberBundle\MisdPhoneNumberBundle::class => ['all' => true],
     c975L\UserBundle\c975LUserBundle::class => ['all' => true],
     c975L\CountLinesCodeBundle\c975LCountLinesCodeBundle::class => ['dev' => true, 'test' => true],
     c975L\XliffBundle\c975LXliffBundle::class => ['dev' => true, 'test' => true],
@@ -32,4 +31,5 @@ return [
     Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle::class => ['all' => true],
     c975L\ShareButtonsBundle\c975LShareButtonsBundle::class => ['all' => true],
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
+    Misd\PhoneNumberBundle\MisdPhoneNumberBundle::class => ['all' => true],
 ];

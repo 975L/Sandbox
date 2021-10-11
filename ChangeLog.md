@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v2.5
+
+- Updated bundles (11/10/2021)
+
 ## v2.4.5.1
 
 - Removed used of 410 errors emails (24/06/2021)
