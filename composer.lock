@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "c975l/config-bundle",
-            "version": "v2.5.5",
+            "version": "v2.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/ConfigBundle.git",
-                "reference": "4aa15fd8b8a156c913744708a8e375821473cf68"
+                "reference": "eca4adfe4dd15ab075d105c694f51883a72b9cbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/ConfigBundle/zipball/4aa15fd8b8a156c913744708a8e375821473cf68",
-                "reference": "4aa15fd8b8a156c913744708a8e375821473cf68",
+                "url": "https://api.github.com/repos/975L/ConfigBundle/zipball/eca4adfe4dd15ab075d105c694f51883a72b9cbc",
+                "reference": "eca4adfe4dd15ab075d105c694f51883a72b9cbc",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-10-08T08:15:14+00:00"
+            "time": "2021-10-14T07:32:52+00:00"
         },
         {
             "name": "c975l/contactform-bundle",
@@ -406,16 +406,16 @@
         },
         {
             "name": "c975l/pageedit-bundle",
-            "version": "v3.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/PageEditBundle.git",
-                "reference": "c46b6074bf8dfa22323bc3946c6c7da3f08b923a"
+                "reference": "f8b9280dd9116b826889ff548679b602bc93cc6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/c46b6074bf8dfa22323bc3946c6c7da3f08b923a",
-                "reference": "c46b6074bf8dfa22323bc3946c6c7da3f08b923a",
+                "url": "https://api.github.com/repos/975L/PageEditBundle/zipball/f8b9280dd9116b826889ff548679b602bc93cc6a",
+                "reference": "f8b9280dd9116b826889ff548679b602bc93cc6a",
                 "shasum": ""
             },
             "require": {
@@ -487,7 +487,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-10-11T12:29:04+00:00"
+            "time": "2021-10-14T07:34:41+00:00"
         },
         {
             "name": "c975l/payment-bundle",
@@ -815,16 +815,16 @@
         },
         {
             "name": "c975l/site-bundle",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/SiteBundle.git",
-                "reference": "85055491418ce7a26cb1b0a5474bab818104ef3a"
+                "reference": "c2ac16e86356e4ff630fb9d07c01f9b0bd5806c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/85055491418ce7a26cb1b0a5474bab818104ef3a",
-                "reference": "85055491418ce7a26cb1b0a5474bab818104ef3a",
+                "url": "https://api.github.com/repos/975L/SiteBundle/zipball/c2ac16e86356e4ff630fb9d07c01f9b0bd5806c8",
+                "reference": "c2ac16e86356e4ff630fb9d07c01f9b0bd5806c8",
                 "shasum": ""
             },
             "require": {
@@ -889,7 +889,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-10-08T08:45:23+00:00"
+            "time": "2021-10-14T07:33:42+00:00"
         },
         {
             "name": "c975l/toolbar-bundle",
@@ -2637,16 +2637,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "c81f18a3efb941d8c4d2e025f6183b5c6d697307"
+                "reference": "ee0db30118f661fb166bcffbf5d82032df484697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/c81f18a3efb941d8c4d2e025f6183b5c6d697307",
-                "reference": "c81f18a3efb941d8c4d2e025f6183b5c6d697307",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ee0db30118f661fb166bcffbf5d82032df484697",
+                "reference": "ee0db30118f661fb166bcffbf5d82032df484697",
                 "shasum": ""
             },
             "require": {
@@ -2693,7 +2693,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/3.1.1"
+                "source": "https://github.com/egulias/EmailValidator/tree/3.1.2"
             },
             "funding": [
                 {
@@ -2701,7 +2701,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-01T18:37:14+00:00"
+            "time": "2021-10-11T09:18:27+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
@@ -2787,16 +2787,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.34",
+            "version": "8.12.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "3161a9e7ffb11cf1355845f13af2c947f4f43d55"
+                "reference": "7853af278d8866328b3df98ae998dbf5d4a5c907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/3161a9e7ffb11cf1355845f13af2c947f4f43d55",
-                "reference": "3161a9e7ffb11cf1355845f13af2c947f4f43d55",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/7853af278d8866328b3df98ae998dbf5d4a5c907",
+                "reference": "7853af278d8866328b3df98ae998dbf5d4a5c907",
                 "shasum": ""
             },
             "require": {
@@ -2856,7 +2856,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2021-10-06T08:07:58+00:00"
+            "time": "2021-10-12T15:51:07+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -4184,16 +4184,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.98.0",
+            "version": "v7.100.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "87f27d3da4a72c93da49d81011cb675c2847a7c0"
+                "reference": "3dfc3dcd5d967a14d2852f34e544188af5f9b799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/87f27d3da4a72c93da49d81011cb675c2847a7c0",
-                "reference": "87f27d3da4a72c93da49d81011cb675c2847a7c0",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/3dfc3dcd5d967a14d2852f34e544188af5f9b799",
+                "reference": "3dfc3dcd5d967a14d2852f34e544188af5f9b799",
                 "shasum": ""
             },
             "require": {
@@ -4239,9 +4239,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.98.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.100.0"
             },
-            "time": "2021-10-07T22:39:44+00:00"
+            "time": "2021-10-11T20:05:45+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5614,16 +5614,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.16.3",
+            "version": "v1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "f05406b33681409b83285f4d2ff4efbca7c55b03"
+                "reference": "782ef2269622b8349c4bc3dc795fc79d39e8a5b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/f05406b33681409b83285f4d2ff4efbca7c55b03",
-                "reference": "f05406b33681409b83285f4d2ff4efbca7c55b03",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/782ef2269622b8349c4bc3dc795fc79d39e8a5b2",
+                "reference": "782ef2269622b8349c4bc3dc795fc79d39e8a5b2",
                 "shasum": ""
             },
             "require": {
@@ -5640,7 +5640,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.16-dev"
+                    "dev-main": "1.17-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -5662,7 +5662,7 @@
             "description": "Composer plugin for Symfony",
             "support": {
                 "issues": "https://github.com/symfony/flex/issues",
-                "source": "https://github.com/symfony/flex/tree/v1.16.3"
+                "source": "https://github.com/symfony/flex/tree/v1.17.1"
             },
             "funding": [
                 {
@@ -5678,7 +5678,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-28T17:00:52+00:00"
+            "time": "2021-10-14T06:14:48+00:00"
         },
         {
             "name": "symfony/form",
@@ -9687,16 +9687,16 @@
     "packages-dev": [
         {
             "name": "c975l/countlinescode-bundle",
-            "version": "v1.6.2",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/975L/CountLinesCodeBundle.git",
-                "reference": "02b8441438a4ea155ca05b38cc77d05a38ffb772"
+                "reference": "8402de4333966befa16c157cdaf75b84bf85c7aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/975L/CountLinesCodeBundle/zipball/02b8441438a4ea155ca05b38cc77d05a38ffb772",
-                "reference": "02b8441438a4ea155ca05b38cc77d05a38ffb772",
+                "url": "https://api.github.com/repos/975L/CountLinesCodeBundle/zipball/8402de4333966befa16c157cdaf75b84bf85c7aa",
+                "reference": "8402de4333966befa16c157cdaf75b84bf85c7aa",
                 "shasum": ""
             },
             "require": {
@@ -9757,7 +9757,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-10-08T08:17:20+00:00"
+            "time": "2021-10-14T07:27:51+00:00"
         },
         {
             "name": "c975l/xliff-bundle",

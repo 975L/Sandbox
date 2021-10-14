@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v2.5.1
+
+- Updated bundles (14/10/2021)
+
 ## v2.5
 
 - Updated bundles (11/10/2021)
