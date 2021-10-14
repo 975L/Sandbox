@@ -42,6 +42,8 @@ class SitemapCreateCommand extends Command
 
         //Ouputs message
         $output->writeln('Sitemaps created!');
+
+        return 0;
     }
 
     //Create sitemap index
